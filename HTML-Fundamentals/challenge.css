@@ -76,3 +76,72 @@ body {
   color: #000;
   background-color: #fff;
 }
+.div1{
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.div2{
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.div3{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.div4{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: yellow;
+  margin-right: 10px;
+
+}
+.div5{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: green;
+  margin-right: 10px;
+
+}
+.div6{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: rgb(89, 19, 19);
+
+
+}
+.more-info{
+  display: block;
+  margin-bottom:10px ;
+
+}
+h2{
+  position: relative;
+}
+h2::after{
+  content: "SALE";
+  background-color: #ec2f2f;
+  color: white;
+  padding: 7px 10px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -17;
+  left: -34;
+}
